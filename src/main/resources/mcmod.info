@@ -1,16 +1,16 @@
 [
 {
-  "modid": "LetsModReboot",
-  "name": "Lets Mod Reboot",
-  "description": "Pahimar's Let's Mod Reboot series. Follow along on YouTube!",
+  "modid": "tinkeraddition",
+  "name": "Tinkers Additions",
+  "description": "x",
   "version": "1.0",
   "mcversion": "1.7.2",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "pahimar"
+    "brendan"
   ],
-  "credits": "To all my Patrons, I love you!",
+  "credits":,
   "logoFile": "",
   "screenshots": [
   ],
