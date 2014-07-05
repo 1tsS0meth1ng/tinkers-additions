@@ -1,6 +1,5 @@
 package com.brendan.tinkeraddition;
 
-import com.brendan.tinkeraddition.configuration.ConfigurationHandler;
 import com.brendan.tinkeraddition.proxy.IProxy;
 import com.brendan.tinkeraddition.reference.Reference;
 
@@ -16,13 +15,13 @@ public class TinkerAddition
 	@Mod.Instance(Reference.MOD_ID)
 	public static TinkerAddition instance;
 	
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+	@SidedProxy(clientSide = "com.brendan.tinkeraddition.proxy.ClientProxy", serverSide = "com.brendan.tinkeraddition.proxy.ServerProxy")
 	public static IProxy proxy;
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		
 	}
 	
 	@Mod.EventHandler
