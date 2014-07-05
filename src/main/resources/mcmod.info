@@ -1,16 +1,16 @@
 [
 {
-  "modid": "tinkeraddition",
-  "name": "Tinkers Additions",
-  "description": "x",
+  "modid": "larry",
+  "name": "Tinkers addition",
+  "description": "YOLO ",
   "version": "1.0",
-  "mcversion": "1.7.2",
+  "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "brendan"
+    "pahimar"
   ],
-  "credits":,
+  "credits": "",
   "logoFile": "",
   "screenshots": [
   ],
