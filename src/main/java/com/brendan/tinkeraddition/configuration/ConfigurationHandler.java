@@ -18,7 +18,7 @@ public class ConfigurationHandler
 			boolean conFigValue = false;
 			try
 			{
-				//Load the config file
+				//Load the configuration file
 				configuration.load();
 				
 				//read in properties from configuration file
@@ -31,8 +31,13 @@ public class ConfigurationHandler
 			}
 			finally
 			{
-				//save the configuration file
-				configuration.save();
+				
+				if(configuration.hasChanged())
+				{
+					//save the configuration file
+					configuration.save();
+				}
+				
 			}
 			
 		}
