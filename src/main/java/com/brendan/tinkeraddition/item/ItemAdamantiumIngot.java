@@ -5,5 +5,6 @@ public class ItemAdamantiumIngot extends TinkerAdditionItem
 	public ItemAdamantiumIngot()
 	{
 		super();
+		this.setUnlocalizedName("AdamantiumIngot");
 	}
 }
